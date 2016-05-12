@@ -35,6 +35,12 @@
 					<div id="info">
 						<h1>Earthquakes from the past week:</h1>
 						<!-- <p>M 4.2 - 1km ESE of Fontana, California / 123 hours ago </p> -->
+						<script id="quakes-template" type="text/x-handlebars-template">
+							{{#each quakes}}
+							<p>{{properties.title}}</p>
+							{{/each}}
+						</script>
+
 					</div>
 				</div>
 			</div>
