@@ -1,7 +1,10 @@
+body {
+  background-color: lightgreen;
+}
 .container {
   padding-bottom: 50px;
 }
 #map {
   height: 600px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
